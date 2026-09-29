@@ -8,7 +8,7 @@ I develop applied projects that combine domain knowledge, data analysis and repr
 
 ### GeoAI Mineral Exploration
 
-[geoai-mineral-portfolio](https://github.com/ehtestinglab-hub/geoai-mineral-portfolio)
+[Mining Geospatial Analytics](https://github.com/EHDataAI/mining-geospatial-analytics)
 
 A progressive portfolio applying geospatial data science to mineral exploration.
 
