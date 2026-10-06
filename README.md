@@ -21,32 +21,40 @@ Current public work includes:
 - **LAB 01A - Coordinate Foundations**
 - **LAB 01B - Cross-Zone CRS Analysis**
 - **LAB 02 - Spatial Exploratory Data Analysis**
-- **24 automated tests**
+- **LAB 03 - Spatial Cross-Validation**
+- **31 automated tests**
 - reproducible Conda environments
 - automated validation with GitHub Actions
 - pre-commit quality controls and secret scanning
+- signed Git commits and pull-request based validation
 
-The portfolio currently demonstrates how coordinate reference systems, sampling density, spatial aggregation and analytical choices can materially affect scientific interpretation.
+The portfolio currently demonstrates how coordinate reference systems, sampling density, spatial aggregation, validation geometry and analytical choices can materially affect scientific interpretation.
 
 One example compares geodesic and projected distance calculations across UTM zones, showing how technically executable spatial operations can still produce scientifically invalid results when coordinate systems are misused.
 
 LAB 02 extends this approach by examining the distinction between apparent spatial hotspots and uneven sampling intensity through controlled synthetic experiments and sensitivity analysis.
 
+LAB 03 extends the portfolio into spatial model validation. It compares conventional Random K-Fold with Spatial Block Cross-Validation and demonstrates how spatial proximity between training and validation observations can produce optimistic estimates of predictive performance.
+
+For the primary 5 km spatial-block scenario, Random K-Fold produced a pooled RMSE of **3.9676**, compared with **4.2610** under Spatial Block Cross-Validation, corresponding to **6.89% relative RMSE optimism** in this controlled synthetic experiment.
+
+The result is treated as experiment-specific rather than as a universal correction factor. The laboratory also evaluates 10 km blocks as a sensitivity analysis and 20 km blocks as a stress test, illustrating the trade-off between stronger spatial separation and reduced validation support.
+
 ### Roadmap
 
 **Completed**
 
-Coordinate Foundations -> Cross-Zone CRS Analysis -> Spatial EDA
+Coordinate Foundations -> Cross-Zone CRS Analysis -> Spatial EDA -> Spatial Cross-Validation
 
 **Next**
 
-Spatial Cross-Validation -> Geochemical Analysis -> Mineral Prospectivity -> Explainability -> Uncertainty -> Remote Sensing
+Geochemical CoDA -> Mineral Prospectivity Mapping -> Explainability -> Uncertainty -> Remote Sensing -> Deep Learning -> Graph & Multimodal GeoAI
 
 ## Technical Stack
 
 **Data Science**
 
-Python | R | pandas | Polars | NumPy | Jupyter
+Python | R | pandas | Polars | NumPy | SciPy | scikit-learn | Jupyter
 
 **Geospatial Analytics**
 
@@ -87,4 +95,8 @@ This includes:
 
 ## Current Development
 
-The public portfolio is being expanded progressively. Additional projects in healthcare analytics, machine learning and applied data science are being reviewed and curated before publication.
+The public portfolio is being expanded progressively.
+
+LAB 04 will extend the current geospatial validation foundation into geochemical compositional data analysis, while maintaining the same emphasis on reproducibility, explicit assumptions, validation design and scientific interpretation.
+
+Additional projects in healthcare analytics, machine learning and applied data science are also being reviewed and curated before publication.
