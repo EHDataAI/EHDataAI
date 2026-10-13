@@ -1,60 +1,58 @@
-# Erick Hecht López
+# Erick Hecht Lopez
 
 **Data Science | Applied AI | Mining & Geospatial Analytics | Healthcare Analytics**
 
-Medical Technologist specializing in MRI, with a bachelor's-level degree in Applied Engineering (Informatics) and currently a Master's candidate in Data Science at Universidad de Santiago de Chile (USACH).
+Medical Technologist specializing in MRI, with a bachelor's-level degree in Applied Engineering (Informatics) and currently completing a Master's program in Data Science at Universidad de Santiago de Chile (USACH).
 
-I develop applied analytics projects that combine domain knowledge, statistical reasoning, machine learning, geospatial analysis and reproducible software practices.
+I develop applied analytics projects that combine domain knowledge, statistical reasoning, machine learning, geospatial analysis, data engineering, and reproducible software practices.
 
-My current public portfolio focuses on mining and geospatial analytics, while additional work in healthcare and business analytics is being reviewed and curated for publication.
+My current public portfolio focuses on GeoAI and mining analytics, with additional work in healthcare analytics and applied data science being progressively curated for publication.
 
 ## Featured Project
 
-### Mining & Geospatial Analytics
+### GeoAI Mineral Labs
 
-[Explore the Mining Geospatial Analytics portfolio](https://github.com/EHDataAI/mining-geospatial-analytics)
+[Explore GeoAI Mineral Labs](https://github.com/EHDataAI/geoai-mineral-labs)
 
-A progressive portfolio applying geospatial data science, spatial machine learning and GeoAI methods to mineral exploration and mining problems.
+A reproducible laboratory portfolio applying geospatial data science, spatial validation, compositional data analysis, machine learning, and GeoAI methods to mineral exploration problems.
 
-Current public work includes:
+Current public milestone: **v0.2.0**
 
-- **LAB 01A - Coordinate Foundations**
-- **LAB 01B - Cross-Zone CRS Analysis**
-- **LAB 02 - Spatial Exploratory Data Analysis**
-- **LAB 03 - Spatial Cross-Validation**
-- **31 automated tests**
-- reproducible Conda environments
-- automated validation with GitHub Actions
-- pre-commit quality controls and secret scanning
-- signed Git commits and pull-request based validation
-
-The portfolio currently demonstrates how coordinate reference systems, sampling density, spatial aggregation, validation geometry and analytical choices can materially affect scientific interpretation.
-
-One example compares geodesic and projected distance calculations across UTM zones, showing how technically executable spatial operations can still produce scientifically invalid results when coordinate systems are misused.
-
-LAB 02 extends this approach by examining the distinction between apparent spatial hotspots and uneven sampling intensity through controlled synthetic experiments and sensitivity analysis.
-
-LAB 03 extends the portfolio into spatial model validation. It compares conventional Random K-Fold with Spatial Block Cross-Validation and demonstrates how spatial proximity between training and validation observations can produce optimistic estimates of predictive performance.
-
-For the primary 5 km spatial-block scenario, Random K-Fold produced a pooled RMSE of **3.9676**, compared with **4.2610** under Spatial Block Cross-Validation, corresponding to **6.89% relative RMSE optimism** in this controlled synthetic experiment.
-
-The result is treated as experiment-specific rather than as a universal correction factor. The laboratory also evaluates 10 km blocks as a sensitivity analysis and 20 km blocks as a stress test, illustrating the trade-off between stronger spatial separation and reduced validation support.
-
-### Roadmap
+### Laboratory status
 
 **Completed**
 
-Coordinate Foundations -> Cross-Zone CRS Analysis -> Spatial EDA -> Spatial Cross-Validation
+- LAB 00 - Engineering Setup
+- LAB 02 - Spatial Exploratory Data Analysis
+- LAB 03 - Spatial Cross-Validation
+- LAB 04 - Geochemical Compositional Data Analysis
+- LAB 05 - Mineral Prospectivity Mapping
 
-**Next**
+**In progress**
 
-Geochemical CoDA -> Mineral Prospectivity Mapping -> Explainability -> Uncertainty -> Remote Sensing -> Deep Learning -> Graph & Multimodal GeoAI
+- LAB 01 - Geospatial Python Foundations
+  - LAB 01A - Coordinate Foundations: completed and validated
+  - LAB 01B - Cross-Zone CRS Analysis: completed and validated
+
+**Planned**
+
+- LAB 06 - Explainable GeoAI
+- LAB 07 - Uncertainty
+- LAB 08 - Remote Sensing
+- LAB 09 - Advanced Integration
+- LAB 10 - Portfolio Consolidation
+
+The v0.2.0 project checkpoint includes **163 passing automated tests**, signed milestone commits, a signed release tag, pre-commit quality controls, and full-history secret scanning with Gitleaks.
+
+LAB05 demonstrates a leakage-aware mineral prospectivity workflow using spatial cross-validation, pooled out-of-fold evaluation, out-of-sample ranking, and a sealed hidden-oracle evaluation.
+
+Under the frozen synthetic experiment, the selected prospectivity model achieved useful hidden-deposit enrichment while prioritizing substantially less than the complete candidate area.
 
 ## Technical Stack
 
 **Data Science**
 
-Python | R | pandas | Polars | NumPy | SciPy | scikit-learn | Jupyter
+Python | R | pandas | Polars | NumPy | scikit-learn | Jupyter
 
 **Geospatial Analytics**
 
@@ -64,39 +62,41 @@ GeoPandas | Shapely | PyProj | Rasterio
 
 Git | GitHub | Conda | pytest | pre-commit | GitHub Actions | Gitleaks
 
+**Data & Analytics Engineering**
+
+SQL | DuckDB | data pipelines | analytical validation | reproducible workflows
+
 ## Areas of Applied Work
 
 ### Mining & Geospatial Analytics
 
-Spatial analysis, geospatial data engineering, spatial machine learning and reproducible analytical workflows for mineral exploration and mining.
+Spatial analysis, geospatial data engineering, spatial machine learning, compositional geochemistry, mineral prospectivity, and reproducible GeoAI workflows.
 
 ### Healthcare Analytics
 
-Applied analytics for medical imaging, operational performance and healthcare information systems, informed by professional experience in MRI and medical imaging.
+Applied analytics for medical imaging, operational performance, RIS/PACS systems, and healthcare information workflows, informed by professional experience in MRI and medical imaging.
 
 ### Data Science & Applied AI
 
-Statistical modelling, machine learning, reproducible experimentation and analytical pipelines across applied domains.
+Statistical modelling, machine learning, reproducible experimentation, analytical pipelines, and interpretable model development across applied domains.
 
 ## Working Principles
 
-I focus on analytical work that is reproducible, auditable and scientifically defensible.
+I focus on analytical work that is reproducible, auditable, and scientifically defensible.
 
 This includes:
 
 - validating assumptions before increasing model complexity;
 - preventing data leakage, including spatial leakage;
-- separating exploratory analysis from reusable production-oriented code;
+- separating exploratory analysis from reusable analytical components;
 - comparing advanced methods against interpretable baselines;
-- using automated testing where appropriate;
-- maintaining traceable version control and signed commits;
-- validating changes through pull requests and continuous integration;
-- communicating limitations, uncertainty and methodological assumptions explicitly.
+- using automated testing and explicit quality gates where appropriate;
+- maintaining traceable version control and signed milestones;
+- validating important changes through pull requests;
+- communicating uncertainty, limitations, and methodological assumptions explicitly.
 
 ## Current Development
 
-The public portfolio is being expanded progressively.
+The next planned GeoAI laboratory is **LAB06 - Explainable GeoAI**.
 
-LAB 04 will extend the current geospatial validation foundation into geochemical compositional data analysis, while maintaining the same emphasis on reproducibility, explicit assumptions, validation design and scientific interpretation.
-
-Additional projects in healthcare analytics, machine learning and applied data science are also being reviewed and curated before publication.
+Additional public projects in healthcare analytics, machine learning, and applied data science will be added progressively after methodological, security, and publication review.
