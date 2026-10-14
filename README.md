@@ -22,29 +22,29 @@ Current public milestone: **v0.2.0**
 
 **Completed**
 
-- LAB 00 - Engineering Setup
-- LAB 02 - Spatial Exploratory Data Analysis
-- LAB 03 - Spatial Cross-Validation
-- LAB 04 - Geochemical Compositional Data Analysis
-- LAB 05 - Mineral Prospectivity Mapping
+- LABORATORY 00 - Engineering & GeoAI Environment
+- LABORATORY 02 - Spatial Exploratory Data Analysis
+- LABORATORY 03 - Spatial Cross-Validation
+- LABORATORY 04 - Geochemical Compositional Data Analysis
+- LABORATORY 05 - Mineral Prospectivity Mapping
 
 **In progress**
 
-- LAB 01 - Geospatial Python Foundations
-  - LAB 01A - Coordinate Foundations: completed and validated
-  - LAB 01B - Cross-Zone CRS Analysis: completed and validated
+- LABORATORY 01 - Geospatial Python Foundations
+  - LABORATORY 01A - Coordinate Foundations: completed and validated
+  - LABORATORY 01B - Cross-Zone CRS Analysis: completed and validated
 
 **Planned**
 
-- LAB 06 - Explainable GeoAI
-- LAB 07 - Uncertainty
-- LAB 08 - Remote Sensing
-- LAB 09 - Advanced Integration
-- LAB 10 - Portfolio Consolidation
+- LABORATORY 06 - Explainable GeoAI
+- LABORATORY 07 - Uncertainty Quantification
+- LABORATORY 08 - Remote Sensing
+- LABORATORY 09 - Deep Learning for GeoAI
+- LABORATORY 10 - Graph & Multimodal GeoAI
 
 The v0.2.0 project checkpoint includes **163 passing automated tests**, signed milestone commits, a signed release tag, pre-commit quality controls, and full-history secret scanning with Gitleaks.
 
-LAB05 demonstrates a leakage-aware mineral prospectivity workflow using spatial cross-validation, pooled out-of-fold evaluation, out-of-sample ranking, and a sealed hidden-oracle evaluation.
+LABORATORY 05 demonstrates a leakage-aware mineral prospectivity workflow using spatial cross-validation, pooled out-of-fold evaluation, out-of-sample ranking, and a sealed hidden-oracle evaluation.
 
 Under the frozen synthetic experiment, the selected prospectivity model achieved useful hidden-deposit enrichment while prioritizing substantially less than the complete candidate area.
 
@@ -97,6 +97,6 @@ This includes:
 
 ## Current Development
 
-The next planned GeoAI laboratory is **LAB06 - Explainable GeoAI**.
+The next planned GeoAI laboratory is **LABORATORY 06 - Explainable GeoAI**.
 
 Additional public projects in healthcare analytics, machine learning, and applied data science will be added progressively after methodological, security, and publication review.
