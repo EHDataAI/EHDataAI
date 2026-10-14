@@ -6,11 +6,13 @@ Medical Technologist specializing in MRI, with a bachelor's-level degree in Appl
 
 I develop applied analytics projects that combine domain knowledge, statistical reasoning, machine learning, geospatial analysis, data engineering, and reproducible software practices.
 
-My current public portfolio focuses on GeoAI and mining analytics, with additional work in healthcare analytics and applied data science being progressively curated for publication.
+My current public portfolio spans GeoAI and mining analytics and healthcare analytics, with additional applied data science projects being progressively curated for publication.
 
-## Featured Project
+## Featured Portfolio
 
-### GeoAI Mineral Labs
+### GeoAI & Mining Analytics
+
+#### GeoAI Mineral Labs
 
 [Explore GeoAI Mineral Labs](https://github.com/EHDataAI/geoai-mineral-labs)
 
@@ -18,7 +20,7 @@ A reproducible laboratory portfolio applying geospatial data science, spatial va
 
 Current public milestone: **v0.2.0**
 
-### Laboratory status
+#### Laboratory status
 
 **Completed**
 
@@ -47,6 +49,18 @@ The v0.2.0 project checkpoint includes **163 passing automated tests**, signed m
 LABORATORY 05 demonstrates a leakage-aware mineral prospectivity workflow using spatial cross-validation, pooled out-of-fold evaluation, out-of-sample ranking, and a sealed hidden-oracle evaluation.
 
 Under the frozen synthetic experiment, the selected prospectivity model achieved useful hidden-deposit enrichment while prioritizing substantially less than the complete candidate area.
+
+### Healthcare Analytics
+
+#### Healthcare RIS/PACS Analytics Demo
+
+[![Launch Live App](https://img.shields.io/badge/Launch-Live%20App-FF4B4B?logo=streamlit&logoColor=white)](https://ehdataai-healthcare-rispacs.streamlit.app/)
+[![View Source](https://img.shields.io/badge/View-Source-181717?logo=github&logoColor=white)](https://github.com/EHDataAI/healthcare-rispacs-analytics-demo)
+[![View Releases](https://img.shields.io/badge/View-Releases-2ea44f?logo=github&logoColor=white)](https://github.com/EHDataAI/healthcare-rispacs-analytics-demo/releases)
+
+A reproducible public healthcare analytics portfolio project using synthetic radiology workflow data to demonstrate RIS/PACS operational analytics, reporting latency, workflow analysis, data quality, management-oriented visualization, and cross-platform software quality controls.
+
+The live dashboard is deployed on Streamlit Community Cloud and contains synthetic data only.
 
 ## Technical Stack
 
@@ -99,4 +113,4 @@ This includes:
 
 The next planned GeoAI laboratory is **LABORATORY 06 - Explainable GeoAI**.
 
-Additional public projects in healthcare analytics, machine learning, and applied data science will be added progressively after methodological, security, and publication review.
+Additional public projects in machine learning and applied data science will be added progressively after methodological, security, and publication review.
