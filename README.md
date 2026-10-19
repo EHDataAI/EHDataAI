@@ -29,6 +29,7 @@ Current public milestone: **v0.2.0**
 - LABORATORY 03 - Spatial Cross-Validation
 - LABORATORY 04 - Geochemical Compositional Data Analysis
 - LABORATORY 05 - Mineral Prospectivity Mapping
+- LABORATORY 06 - Explainable GeoAI
 
 **In progress**
 
@@ -38,7 +39,6 @@ Current public milestone: **v0.2.0**
 
 **Planned**
 
-- LABORATORY 06 - Explainable GeoAI
 - LABORATORY 07 - Uncertainty Quantification
 - LABORATORY 08 - Remote Sensing
 - LABORATORY 09 - Deep Learning for GeoAI
@@ -61,6 +61,28 @@ Under the frozen synthetic experiment, the selected prospectivity model achieved
 A reproducible public healthcare analytics portfolio project using synthetic radiology workflow data to demonstrate RIS/PACS operational analytics, reporting latency, workflow analysis, data quality, management-oriented visualization, and cross-platform software quality controls.
 
 The live dashboard is deployed on Streamlit Community Cloud and contains synthetic data only.
+
+#### Healthcare MLOps - WDBC Scientific Benchmark
+
+[Explore Healthcare MLOps Benchmark](https://github.com/EHDataAI/healthcare-mlops-benchmark)
+
+Published development-only research notebook on Wisconsin Diagnostic Breast Cancer (fine-needle aspirate features, not mammography): nested cross-validation, out-of-fold evaluation, and probability calibration. Includes a static visual report. The frozen research inputs are not included in this minimal public release; results are not externally validated and are not intended for clinical decisions.
+
+[Research notebook](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/WDBC_ERLV2_Research_Report_v0_1_1.ipynb) | [Visual report](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/preview/WDBC_ERLV2_Research_Report_v0_1_1.html)
+
+### In Preparation - Selected Upcoming Projects
+
+These projects are not yet final validated public releases. An existing source repository does not imply that the final technical release has been approved.
+
+#### TELCO Churn Analytics - Final Release QA
+
+[View TELCO repository - work in progress](https://github.com/EHDataAI/telco-churn-analytics)
+
+Applied customer-churn analytics with a reproducible synthetic-data workflow. The public repository already exists; the project's final validated release remains **in preparation**, pending technical QA, scientific review, and publication checks. No final model-performance claims are made here.
+
+#### Neuro-MBA Analytics Chile 2025 - Public Edition in Preparation
+
+Executive analytics and campaign-ideation showcase in preparation. The public edition will retain approved executive views and high-level methodological explanations while excluding private models, sensitive details, detailed experimental tables, and internal validation material. Publication status: **curation, privacy, and public-scope review pending**. Public repository link: **not yet available**.
 
 ## Technical Stack
 
@@ -111,6 +133,6 @@ This includes:
 
 ## Current Development
 
-The next planned GeoAI laboratory is **LABORATORY 06 - Explainable GeoAI**.
+The next planned GeoAI laboratory is **LABORATORY 07 - Uncertainty Quantification**.
 
 Additional public projects in machine learning and applied data science will be added progressively after methodological, security, and publication review.
