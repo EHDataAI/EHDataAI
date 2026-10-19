@@ -10,7 +10,9 @@ My current public portfolio spans GeoAI and mining analytics and healthcare anal
 
 ## Executed Notebooks — Results Gallery
 
-Explore saved scientific results without installing Python. **View results** opens a read-only notebook renderer, while **GitHub notebook** opens the source and saved outputs in the repository.
+Explore saved scientific results without installing Python. **View results** opens a read-only notebook renderer, while **GitHub notebook** opens the source and saved outputs in the repository. These links show previously saved outputs, not live computation.
+
+### GeoAI Mineral Labs
 
 | GeoAI laboratory | Rendered results | Source and outputs |
 | --- | --- | --- |
@@ -25,6 +27,30 @@ Explore saved scientific results without installing Python. **View results** ope
 **Important:** These are previously saved outputs, not live execution sessions. The experiments use synthetic data and have documented validation boundaries. LAB04 links to the explicitly executed notebook; its separate source-only notebook has no saved outputs. To reproduce a workflow, consult the repository's environment, data, and execution instructions.
 
 If the external notebook viewer is unavailable, try the corresponding GitHub notebook link.
+
+### Mining Geospatial Analytics
+
+These notebooks in the separate mining-analytics repository also contain saved execution results.
+
+| Mining laboratory | Rendered results | Source and outputs |
+| --- | --- | --- |
+| LAB01A — Coordinate foundations | [View results](https://nbviewer.org/github/EHDataAI/mining-geospatial-analytics/blob/main/labs/lab01_geospatial_foundations/01a_coordinate_foundations.ipynb) | [GitHub notebook](https://github.com/EHDataAI/mining-geospatial-analytics/blob/main/labs/lab01_geospatial_foundations/01a_coordinate_foundations.ipynb) |
+| LAB01B — Cross-zone CRS analysis | [View results](https://nbviewer.org/github/EHDataAI/mining-geospatial-analytics/blob/main/labs/lab01_geospatial_foundations/01b_cross_zone_crs.ipynb) | [GitHub notebook](https://github.com/EHDataAI/mining-geospatial-analytics/blob/main/labs/lab01_geospatial_foundations/01b_cross_zone_crs.ipynb) |
+| LAB02 — Spatial exploratory analysis | [View results](https://nbviewer.org/github/EHDataAI/mining-geospatial-analytics/blob/main/labs/lab02_spatial_eda/02_spatial_eda.ipynb) | [GitHub notebook](https://github.com/EHDataAI/mining-geospatial-analytics/blob/main/labs/lab02_spatial_eda/02_spatial_eda.ipynb) |
+| LAB03 — Spatial cross-validation | [View results](https://nbviewer.org/github/EHDataAI/mining-geospatial-analytics/blob/main/labs/lab03_spatial_cross_validation/03_spatial_cross_validation.ipynb) | [GitHub notebook](https://github.com/EHDataAI/mining-geospatial-analytics/blob/main/labs/lab03_spatial_cross_validation/03_spatial_cross_validation.ipynb) |
+| LAB04 — Geochemical CoDA | [View results](https://nbviewer.org/github/EHDataAI/mining-geospatial-analytics/blob/main/labs/lab04_geochemical_coda/04_geochemical_coda.ipynb) | [GitHub notebook](https://github.com/EHDataAI/mining-geospatial-analytics/blob/main/labs/lab04_geochemical_coda/04_geochemical_coda.ipynb) |
+
+### TELCO Churn Analytics
+
+All three TELCO notebooks now have saved, publicly inspectable outputs. The EDA satisfaction-score chart includes a horizontal x-axis-label presentation fix.
+
+| TELCO notebook | Rendered results | Source and outputs |
+| --- | --- | --- |
+| 01 — Data quality and EDA | [View results](https://nbviewer.org/github/EHDataAI/telco-churn-analytics/blob/main/notebooks/01_data_quality_eda.ipynb) | [GitHub notebook](https://github.com/EHDataAI/telco-churn-analytics/blob/main/notebooks/01_data_quality_eda.ipynb) |
+| 02 — Modeling | [View results](https://nbviewer.org/github/EHDataAI/telco-churn-analytics/blob/main/notebooks/02_modeling.ipynb) | [GitHub notebook](https://github.com/EHDataAI/telco-churn-analytics/blob/main/notebooks/02_modeling.ipynb) |
+| 03 — Interpretation | [View results](https://nbviewer.org/github/EHDataAI/telco-churn-analytics/blob/main/notebooks/03_interpretation.ipynb) | [GitHub notebook](https://github.com/EHDataAI/telco-churn-analytics/blob/main/notebooks/03_interpretation.ipynb) |
+
+**Healthcare MLOps / WDBC:** The public research notebook is intentionally source-only and depends on frozen research artifacts that are not part of the public repository. A separate static HTML report exists, but opening its `.html` file on GitHub shows the file source rather than a hosted rendered report. No live or reproducible output is claimed for that notebook.
 
 ## Featured Portfolio
 
@@ -86,7 +112,7 @@ The live dashboard is deployed on Streamlit Community Cloud and contains synthet
 
 Published development-only research notebook on Wisconsin Diagnostic Breast Cancer (fine-needle aspirate features, not mammography): nested cross-validation, out-of-fold evaluation, and probability calibration. Includes a static visual report. The frozen research inputs are not included in this minimal public release; results are not externally validated and are not intended for clinical decisions.
 
-[Research notebook](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/WDBC_ERLV2_Research_Report_v0_1_1.ipynb) | [Visual report](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/preview/WDBC_ERLV2_Research_Report_v0_1_1.html)
+[Research notebook (source only)](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/WDBC_ERLV2_Research_Report_v0_1_1.ipynb) | [Static HTML report file (download to view)](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/preview/WDBC_ERLV2_Research_Report_v0_1_1.html)
 
 ### Additional Portfolio Projects
 
@@ -98,7 +124,7 @@ Public synthetic-data case study of leakage-aware churn modelling, temporal vali
 
 ![TELCO validation precision-recall curves](https://raw.githubusercontent.com/EHDataAI/telco-churn-analytics/main/reports/figures/validation_pr_curves.png)
 
-The reproducible TELCO notebooks are currently published as source-only notebooks; the figure above is a separately published, version-controlled result. They are **not** described as executed notebook previews.
+The three TELCO portfolio notebooks are published on `main` with executed outputs (12 saved outputs including 3 PNG figures across the notebooks). The figure above remains a separately version-controlled validation plot. The notebook outputs describe the frozen synthetic benchmark only, not production telecom performance.
 
 #### Neuro-MBA Analytics Chile 2025 - Public Edition in Preparation
 
