@@ -8,6 +8,24 @@ I develop applied analytics projects that combine domain knowledge, statistical 
 
 My current public portfolio spans GeoAI and mining analytics and healthcare analytics, with additional applied data science projects being progressively curated for publication.
 
+## Executed Notebooks — Results Gallery
+
+Explore saved scientific results without installing Python. **View results** opens a read-only notebook renderer, while **GitHub notebook** opens the source and saved outputs in the repository.
+
+| GeoAI laboratory | Rendered results | Source and outputs |
+| --- | --- | --- |
+| LAB01A — Coordinate foundations | [View results](https://nbviewer.org/github/EHDataAI/geoai-mineral-labs/blob/main/labs/lab01_geospatial_foundations/01a_coordinate_foundations.ipynb) | [GitHub notebook](https://github.com/EHDataAI/geoai-mineral-labs/blob/main/labs/lab01_geospatial_foundations/01a_coordinate_foundations.ipynb) |
+| LAB01B — Cross-zone CRS analysis | [View results](https://nbviewer.org/github/EHDataAI/geoai-mineral-labs/blob/main/labs/lab01_geospatial_foundations/01b_cross_zone_crs.ipynb) | [GitHub notebook](https://github.com/EHDataAI/geoai-mineral-labs/blob/main/labs/lab01_geospatial_foundations/01b_cross_zone_crs.ipynb) |
+| LAB02 — Spatial exploratory analysis | [View results](https://nbviewer.org/github/EHDataAI/geoai-mineral-labs/blob/main/labs/lab02_spatial_eda/02_spatial_eda.ipynb) | [GitHub notebook](https://github.com/EHDataAI/geoai-mineral-labs/blob/main/labs/lab02_spatial_eda/02_spatial_eda.ipynb) |
+| LAB03 — Spatial cross-validation | [View results](https://nbviewer.org/github/EHDataAI/geoai-mineral-labs/blob/main/labs/lab03_spatial_cross_validation/03_spatial_cross_validation.ipynb) | [GitHub notebook](https://github.com/EHDataAI/geoai-mineral-labs/blob/main/labs/lab03_spatial_cross_validation/03_spatial_cross_validation.ipynb) |
+| LAB04 — Geochemical CoDA | [View results](https://nbviewer.org/github/EHDataAI/geoai-mineral-labs/blob/main/labs/lab04_geochemical_coda/04_geochemical_coda_executed.ipynb) | [GitHub notebook](https://github.com/EHDataAI/geoai-mineral-labs/blob/main/labs/lab04_geochemical_coda/04_geochemical_coda_executed.ipynb) |
+| LAB05 — Mineral prospectivity | [View results](https://nbviewer.org/github/EHDataAI/geoai-mineral-labs/blob/main/labs/lab05_mineral_prospectivity/05_mineral_prospectivity.ipynb) | [GitHub notebook](https://github.com/EHDataAI/geoai-mineral-labs/blob/main/labs/lab05_mineral_prospectivity/05_mineral_prospectivity.ipynb) |
+| LAB06 — Explainable GeoAI | [View results](https://nbviewer.org/github/EHDataAI/geoai-mineral-labs/blob/main/labs/lab06_explainable_geoai/06_explainable_geoai.ipynb) | [GitHub notebook](https://github.com/EHDataAI/geoai-mineral-labs/blob/main/labs/lab06_explainable_geoai/06_explainable_geoai.ipynb) |
+
+**Important:** These are previously saved outputs, not live execution sessions. The experiments use synthetic data and have documented validation boundaries. LAB04 links to the explicitly executed notebook; its separate source-only notebook has no saved outputs. To reproduce a workflow, consult the repository's environment, data, and execution instructions.
+
+If the external notebook viewer is unavailable, try the corresponding GitHub notebook link.
+
 ## Featured Portfolio
 
 ### GeoAI & Mining Analytics
@@ -70,15 +88,17 @@ Published development-only research notebook on Wisconsin Diagnostic Breast Canc
 
 [Research notebook](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/WDBC_ERLV2_Research_Report_v0_1_1.ipynb) | [Visual report](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/preview/WDBC_ERLV2_Research_Report_v0_1_1.html)
 
-### In Preparation - Selected Upcoming Projects
+### Additional Portfolio Projects
 
-These projects are not yet final validated public releases. An existing source repository does not imply that the final technical release has been approved.
+#### TELCO Churn Analytics — Completed
 
-#### TELCO Churn Analytics - Final Release QA
+[Explore completed TELCO Churn Analytics](https://github.com/EHDataAI/telco-churn-analytics)
 
-[View TELCO repository - work in progress](https://github.com/EHDataAI/telco-churn-analytics)
+Public synthetic-data case study of leakage-aware churn modelling, temporal validation, probability calibration, model comparison, and automated quality controls. The final portfolio integration was completed on **19 October 2026**. Model performance describes the synthetic benchmark only and is not evidence of production performance.
 
-Applied customer-churn analytics with a reproducible synthetic-data workflow. The public repository already exists; the project's final validated release remains **in preparation**, pending technical QA, scientific review, and publication checks. No final model-performance claims are made here.
+![TELCO validation precision-recall curves](https://raw.githubusercontent.com/EHDataAI/telco-churn-analytics/main/reports/figures/validation_pr_curves.png)
+
+The reproducible TELCO notebooks are currently published as source-only notebooks; the figure above is a separately published, version-controlled result. They are **not** described as executed notebook previews.
 
 #### Neuro-MBA Analytics Chile 2025 - Public Edition in Preparation
 
