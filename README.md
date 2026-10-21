@@ -50,7 +50,17 @@ All three TELCO notebooks now have saved, publicly inspectable outputs. The EDA 
 | 02 — Modeling | [View results](https://nbviewer.org/github/EHDataAI/telco-churn-analytics/blob/main/notebooks/02_modeling.ipynb) | [GitHub notebook](https://github.com/EHDataAI/telco-churn-analytics/blob/main/notebooks/02_modeling.ipynb) |
 | 03 — Interpretation | [View results](https://nbviewer.org/github/EHDataAI/telco-churn-analytics/blob/main/notebooks/03_interpretation.ipynb) | [GitHub notebook](https://github.com/EHDataAI/telco-churn-analytics/blob/main/notebooks/03_interpretation.ipynb) |
 
-**Healthcare MLOps / WDBC:** The public research notebook is intentionally source-only and depends on frozen research artifacts that are not part of the public repository. A separate static HTML report exists, but opening its `.html` file on GitHub shows the file source rather than a hosted rendered report. No live or reproducible output is claimed for that notebook.
+### Healthcare MLOps — WDBC Scientific Report
+
+WDBC uses a different publication contract from the 15 executed notebooks above: **the research notebook is intentionally source-only**, and its eight frozen evidence inputs are not distributed. The saved scientific results are available as a **read-only, publicly hosted HTML report**, not as an executable notebook or clinical application.
+
+| WDBC resource | Public access | Purpose |
+| --- | --- | --- |
+| Evidence-first landing | [Open landing](https://ehdataai.github.io/healthcare-mlops-benchmark/) | Study scope, two verified figure previews and methodological cautions |
+| Frozen visual report | [View scientific report](https://ehdataai.github.io/healthcare-mlops-benchmark/wdbc-report.html) | Five original figures, scientific tables, methods and limits |
+| Research notebook | [Read source on GitHub](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/WDBC_ERLV2_Research_Report_v0_1_1.ipynb) | Methodology and audited read-only reporting logic, without saved execution outputs |
+
+**Research boundary:** development-only WDBC benchmark and probability calibration; not independent clinical validation, a diagnostic system or medical-device software.
 
 ## Featured Portfolio
 
@@ -112,7 +122,7 @@ The live dashboard is deployed on Streamlit Community Cloud and contains synthet
 
 Published development-only research notebook on Wisconsin Diagnostic Breast Cancer (fine-needle aspirate features, not mammography): nested cross-validation, out-of-fold evaluation, and probability calibration. Includes a static visual report. The frozen research inputs are not included in this minimal public release; results are not externally validated and are not intended for clinical decisions.
 
-[Research notebook (source only)](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/WDBC_ERLV2_Research_Report_v0_1_1.ipynb) | [Static HTML report file (download to view)](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/preview/WDBC_ERLV2_Research_Report_v0_1_1.html)
+[Open live report landing](https://ehdataai.github.io/healthcare-mlops-benchmark/) | [View scientific HTML report](https://ehdataai.github.io/healthcare-mlops-benchmark/wdbc-report.html) | [Research notebook (source only)](https://github.com/EHDataAI/healthcare-mlops-benchmark/blob/main/WDBC_ERLV2_Research_Report_v0_1_1.ipynb)
 
 ### Additional Portfolio Projects
 
