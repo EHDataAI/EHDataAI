@@ -1,26 +1,32 @@
 # Erick Hecht Lopez
 
-**Data Science | Applied AI | Mining & Geospatial Analytics | Healthcare Analytics**
+## Applied Data Science | Machine Learning | Data Engineering | Business Intelligence
 
-Medical Technologist specializing in MRI, with a bachelor's-level degree in Applied Engineering (Informatics) and currently completing a Master's program in Data Science at Universidad de Santiago de Chile (USACH).
+**Turning complex data into reliable insights, measurable questions, and better decisions across industries.**
 
-I develop applied analytics projects that combine domain knowledge, statistical reasoning, machine learning, geospatial analysis, data engineering, and reproducible software practices.
+I build applied data science solutions for **business, healthcare, operational processes, customer analytics, and industrial systems**. My work connects data engineering, statistics, machine learning, analytical dashboards, and software quality to solve practical problems—from understanding customer behavior and predicting churn to evaluating healthcare workflows and spatial uncertainty.
 
-My current public portfolio spans GeoAI and mining analytics and healthcare analytics, with additional applied data science projects being progressively curated for publication.
+I bring an interdisciplinary perspective from medical imaging, applied informatics, and postgraduate Data Science studies at Universidad de Santiago de Chile (USACH). Each project emphasizes reproducibility, appropriate validation, data leakage prevention, interpretability, and honest communication of uncertainty.
+
+**Explore the work, not just the tools:** public projects include an interactive healthcare dashboard, a completed churn modelling case study, scientific reports, research prototypes, and curated BI showcase material. Demonstrations and synthetic benchmarks are clearly distinguished from production deployments and validated real-world outcomes.
+
+### Start here — Selected projects
+
+| Project | Applied problem | Public evidence |
+| --- | --- | --- |
+| [Healthcare RIS/PACS Analytics](https://github.com/EHDataAI/healthcare-rispacs-analytics-demo) | Operational intelligence for imaging workflows | [Interactive synthetic-data demo](https://ehdataai-healthcare-rispacs.streamlit.app/) |
+| [TELCO Churn Analytics](https://github.com/EHDataAI/telco-churn-analytics) | Predictive customer retention with temporal validation | Completed reproducible case study |
+| [Neuro-MBA Analytics](https://github.com/EHDataAI/neuro-mba-analytics) | Consumer / Business Intelligence and product associations | Four conceptual synthetic showcase visuals; interactive demo pending |
+| [Healthcare MLOps Benchmark](https://github.com/EHDataAI/healthcare-mlops-benchmark) | Model evaluation, calibration, scientific reporting | Development-only research report |
+| [MRI RAG HELPER](https://github.com/EHDataAI/mri-rag-academy-lab) | Evidence-oriented educational information retrieval | Research prototype; clinical review pending |
+| [GeoAI Mineral Labs](https://github.com/EHDataAI/geoai-mineral-labs) | Spatial validation, prospectivity and uncertainty | Reproducible geospatial laboratories |
+| [Mining Geospatial Analytics](https://github.com/EHDataAI/mining-geospatial-analytics) | Applied geospatial analytical workflows | Executed technical notebooks |
+
+**Core capabilities:** Python · SQL · Polars · DuckDB · pandas · scikit-learn · Streamlit · MLOps/QA · GitHub Actions · Geospatial Analytics.
 
 ## Portfolio Status — October 2026
 
-| Public project | Current public-facing status |
-| --- | --- |
-| [GeoAI Mineral Labs](https://github.com/EHDataAI/geoai-mineral-labs) | Published geospatial research laboratories; roadmap continues |
-| [Mining Geospatial Analytics](https://github.com/EHDataAI/mining-geospatial-analytics) | Published notebooks and technical walkthroughs |
-| [Healthcare RIS/PACS Analytics](https://github.com/EHDataAI/healthcare-rispacs-analytics-demo) | Public synthetic-data dashboard and [Streamlit demo](https://ehdataai-healthcare-rispacs.streamlit.app/) |
-| [TELCO Churn Analytics](https://github.com/EHDataAI/telco-churn-analytics) | Completed synthetic benchmark portfolio; CI documented |
-| [Healthcare MLOps Benchmark](https://github.com/EHDataAI/healthcare-mlops-benchmark) | Public development-only scientific report; not for clinical use |
-| [Neuro-MBA Analytics](https://github.com/EHDataAI/neuro-mba-analytics) | **New:** four conceptual showcase images; interactive demo pending |
-| [MRI RAG HELPER](https://github.com/EHDataAI/mri-rag-academy-lab) | Research prototype; clinical review pending |
-
-The status descriptions distinguish published artifacts from deployed applications, validated studies, and work in progress. Synthetic benchmarks and illustrations are not evidence of production performance.
+The links above represent different maturity levels: **published portfolio artifacts**, **interactive demos**, **research prototypes**, and **work in progress**. Synthetic data, conceptual images, and research metrics are not presented as evidence of live production performance.
 
 ## Executed Notebooks — Results Gallery
 
@@ -213,6 +219,6 @@ This includes:
 
 ## Current Development
 
-The next planned GeoAI laboratory is **LABORATORY 07 - Uncertainty Quantification**.
+Current development includes spatial uncertainty research, MRI educational retrieval, and a separately reviewed Neuro-MBA interactive demonstration. Public release status is tracked in each project repository.
 
 Additional public projects in machine learning and applied data science will be added progressively after methodological, security, and publication review.
