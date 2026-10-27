@@ -8,6 +8,20 @@ I develop applied analytics projects that combine domain knowledge, statistical 
 
 My current public portfolio spans GeoAI and mining analytics and healthcare analytics, with additional applied data science projects being progressively curated for publication.
 
+## Portfolio Status — October 2026
+
+| Public project | Current public-facing status |
+| --- | --- |
+| [GeoAI Mineral Labs](https://github.com/EHDataAI/geoai-mineral-labs) | Published geospatial research laboratories; roadmap continues |
+| [Mining Geospatial Analytics](https://github.com/EHDataAI/mining-geospatial-analytics) | Published notebooks and technical walkthroughs |
+| [Healthcare RIS/PACS Analytics](https://github.com/EHDataAI/healthcare-rispacs-analytics-demo) | Public synthetic-data dashboard and [Streamlit demo](https://ehdataai-healthcare-rispacs.streamlit.app/) |
+| [TELCO Churn Analytics](https://github.com/EHDataAI/telco-churn-analytics) | Completed synthetic benchmark portfolio; CI documented |
+| [Healthcare MLOps Benchmark](https://github.com/EHDataAI/healthcare-mlops-benchmark) | Public development-only scientific report; not for clinical use |
+| [Neuro-MBA Analytics](https://github.com/EHDataAI/neuro-mba-analytics) | **New:** four conceptual showcase images; interactive demo pending |
+| [MRI-RAG Academy Lab](https://github.com/EHDataAI/mri-rag-academy-lab) | Research prototype; clinical review pending |
+
+The status descriptions distinguish published artifacts from deployed applications, validated studies, and work in progress. Synthetic benchmarks and illustrations are not evidence of production performance.
+
 ## Executed Notebooks — Results Gallery
 
 Explore saved scientific results without installing Python. **View results** opens a read-only notebook renderer, while **GitHub notebook** opens the source and saved outputs in the repository. These links show previously saved outputs, not live computation.
@@ -136,9 +150,19 @@ Public synthetic-data case study of leakage-aware churn modelling, temporal vali
 
 The three TELCO portfolio notebooks are published on `main` with executed outputs (12 saved outputs including 3 PNG figures across the notebooks). The figure above remains a separately version-controlled validation plot. The notebook outputs describe the frozen synthetic benchmark only, not production telecom performance.
 
-#### Neuro-MBA Analytics Chile 2025 - Public Edition in Preparation
+#### Neuro-MBA Analytics — Public Visual Showcase Published
 
-Executive analytics and campaign-ideation showcase in preparation. The public edition will retain approved executive views and high-level methodological explanations while excluding private models, sensitive details, detailed experimental tables, and internal validation material. Publication status: **curation, privacy, and public-scope review pending**. Public repository link: **not yet available**.
+[Explore Neuro-MBA Analytics — Consumer / Business Intelligence](https://github.com/EHDataAI/neuro-mba-analytics)
+
+Applied data science research project covering executive commercial analytics, product associations (Market Basket Analysis), temporal exploration, and cross-selling hypotheses for **Chile · Calendar 2025**. The repository now includes four curated **conceptual visuals**, a public-scope README, and confidentiality disclosures. All figures are illustrative and synthetic; they are **not verified screenshots of a deployed application or empirical results**.
+
+**Status:** public GitHub portfolio published (commit `c527c2a`); interactive Streamlit demonstration remains **under separate review and is not deployed here**. Proprietary simulation code, experimental tables, and decision logic are not distributed.
+
+#### MRI-RAG Academy Lab — Public Research Prototype
+
+[Explore MRI-RAG Academy Lab](https://github.com/EHDataAI/mri-rag-academy-lab)
+
+Spanish-language educational retrieval lab for MRI concepts, with a local SQLite FTS5 baseline, optional hybrid search and local generation, source-provenance controls, and automated QA. **Status:** public prototype/research code; its own README reports pending clinical peer review, so it is not a clinical tool or validated medical advice system.
 
 ## Technical Stack
 
