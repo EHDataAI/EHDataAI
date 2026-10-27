@@ -18,7 +18,7 @@ My current public portfolio spans GeoAI and mining analytics and healthcare anal
 | [TELCO Churn Analytics](https://github.com/EHDataAI/telco-churn-analytics) | Completed synthetic benchmark portfolio; CI documented |
 | [Healthcare MLOps Benchmark](https://github.com/EHDataAI/healthcare-mlops-benchmark) | Public development-only scientific report; not for clinical use |
 | [Neuro-MBA Analytics](https://github.com/EHDataAI/neuro-mba-analytics) | **New:** four conceptual showcase images; interactive demo pending |
-| [MRI-RAG Academy Lab](https://github.com/EHDataAI/mri-rag-academy-lab) | Research prototype; clinical review pending |
+| [MRI RAG HELPER](https://github.com/EHDataAI/mri-rag-academy-lab) | Research prototype; clinical review pending |
 
 The status descriptions distinguish published artifacts from deployed applications, validated studies, and work in progress. Synthetic benchmarks and illustrations are not evidence of production performance.
 
@@ -158,9 +158,9 @@ Applied data science research project covering executive commercial analytics, p
 
 **Status:** public GitHub portfolio published (commit `c527c2a`); interactive Streamlit demonstration remains **under separate review and is not deployed here**. Proprietary simulation code, experimental tables, and decision logic are not distributed.
 
-#### MRI-RAG Academy Lab — Public Research Prototype
+#### MRI RAG HELPER — Public Research Prototype
 
-[Explore MRI-RAG Academy Lab](https://github.com/EHDataAI/mri-rag-academy-lab)
+[Explore MRI RAG HELPER](https://github.com/EHDataAI/mri-rag-academy-lab)
 
 Spanish-language educational retrieval lab for MRI concepts, with a local SQLite FTS5 baseline, optional hybrid search and local generation, source-provenance controls, and automated QA. **Status:** public prototype/research code; its own README reports pending clinical peer review, so it is not a clinical tool or validated medical advice system.
 
